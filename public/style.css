@@ -1,6 +1,9 @@
 :root {
   --color-primary: #0098d7;
   --color-secondary: #0288bd;
+
+  --sidebar-bg-color: #e0e0e0; 
+  --content-bg-color: #f2f2f2; 
 }
 
 body, html {
@@ -27,7 +30,7 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #e0e0e0; 
+  background-color: var(--sidebar-bg-color); 
 }
 
 .sidebar-content {
@@ -57,7 +60,7 @@ main {
   height: 100%;
   flex: 1;
   overflow-y: auto;
-  background-color: #f2f2f2;
+  background-color: var(--content-bg-color);
 }
 
 .item {
