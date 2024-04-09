@@ -15,3 +15,5 @@ app.use(routes);
 app.listen(port, () => {
   console.log(`Listening port ${port}`);
 });
+
+module.exports = app;
